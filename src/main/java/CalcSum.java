@@ -1,7 +1,7 @@
 import org.springframework.web.bind.annotation.*;
 public class CalcSum {
 
-    @RequestMapping 
+    @RequestMapping
     public int sum
             (@RequestParam int a,
              @RequestParam int b){
